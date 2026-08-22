@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Local env files (MUST NEVER BE PUSHED TO GITHUB)
+.env
+.env.local
+**/.env
+**/.env.local
+.env.*
+
+# Build directories
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS Files
+.DS_Store
+.idea/
+.vscode/
